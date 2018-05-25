@@ -1,5 +1,9 @@
 # book-city
 ### 书城简介
+
+- 所用插件
+
+    gulp swiper better-scroll handlebars
 - 组成
 
 1.首页

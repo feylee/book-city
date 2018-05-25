@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="css/reset.css"><link rel="stylesheet" href="css/style.css"></head><body><div class="wrap"><div class="searches"><p class="p"><input type="text" placeholder="搜索"> <span class="search-btn show"></span></p></div><div class="searchresult"></div></div><script class="searchtext" type="text/x-handlebars-template">{{#each ads}} {{#if status}}
+        <a>{{ad_name}}</a> {{else}}
+        <a class="active">{{ad_name}}</a> {{/if}} {{/each}}</script><script class="searchlist" type="text/x-handlebars-template">{{#if items.length}} {{#each items}}
+        <div>
+            <a href="/page/detail.html?activeid={{fiction_id}}">
+                <dl>
+                    <dt><img src="{{cover}}"><b>{{allow_free_read}}</b></dt>
+                    <dd>
+                        <h3>{{title}}</h3>
+                        <p>{{intro}}</p>
+                    </dd>
+                </dl>
+            </a>
+        </div>
+        {{/each}} {{else}}
+        <div>暂无数据</div>
+        {{/if}}</script><script src="js/lib/require.js"></script><script>require(["../js/main"],function(){require(["search"])})</script></body></html>

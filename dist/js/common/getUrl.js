@@ -1,0 +1,1 @@
+"use strict";define(function(){return function(t){var n=location.search,c="";return n.replace(/[\?&](\w+)=([^\?&]+)/g,function(n,e,r){e==t&&(c=r)}),c}});

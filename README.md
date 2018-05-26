@@ -26,7 +26,7 @@
 
 3.详情页
 
-![images](https://github.com/feylee/book-city/blob/master/img/xiangqing.png)
+![images](https://raw.githubusercontent.com/feylee/book-city/master/img/xiangqing.png)
 
 4.阅读页
 
